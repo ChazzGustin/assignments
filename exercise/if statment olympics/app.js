@@ -23,7 +23,4 @@ if (person.age >=18 && person.name[0] === "B"){
     console.log ("think of the children!")
 }*/
 
-if (1 === "1"){
-console.log ("strict");
-}
 
