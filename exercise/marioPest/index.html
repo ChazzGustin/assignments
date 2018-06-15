@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mario's Pest Control</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Mario Pest Control</h1>
+     
+    <form class="baddiesPricing" name="pricing">
+        <ul>
+            <li class="baddies" name="Goombas">
+                <img src="https://vignette.wikia.nocookie.net/mario/images/b/b2/GoombaSM3DWArtwork.png/revision/latest?cb=20131111161124" alt="picture of a goomba" class="baddiePics">
+                <p class="baddietext">Goombas 5 coins</p>
+                <input class="cost" type="number" id="goombaNumber">
+            </li>
+            <li class="baddies" name="Bob-ombs">
+                <img src="https://vignette.wikia.nocookie.net/mario/images/7/7b/250px-MPSR_King_Bob-omb.png/revision/latest?cb=20180330221552" alt="picture of a bob-omb" class="baddiePics">
+                <p class="baddietext">Bob-ombs 7 coins</p>
+                <input class="cost" type="number" id="bobombNumber">
+            </li>
+            <li class="baddies" name="Cheep-cheeps">
+                <img src="https://vignette.wikia.nocookie.net/mario/images/c/c1/Cheep_Cheep%2C_New_Super_Mario_Bros._U.png/revision/latest?cb=20121106023911" alt="picture of a cheep-cheep" class="baddiePics">
+                <p class="baddietext">Cheep-cheeps 11 coins</p>
+                <input class="cost" type="number" id="cheepcheepNumber">
+            </li>
+        </ul>
+        
+        <div class = "totalParent">
+            <div class="totalStuff">
+                <button class="total" name="get-total" type="submit">Get Cost</button>
+                <p class ="totalWords"> Total:</p>
+                <div class="total-price" id="totalPrice">
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>

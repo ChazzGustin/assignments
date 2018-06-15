@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #00a2ff;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    background-color:  #00a2ff;
+    color: #ff0000;
+    font-family:  SuperMarioGalaxy;
+    padding:5%;
+}
+
+.baddiePics {
+    width: auto;
+    height: 75px;
+}
+/*ul {
+ list-style-type: none;
+}*/
+
+li {
+    font-size: 30px;
+    font-family:  SuperMarioGalaxy;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5%;
+}
+
+.cost {
+    height: 60px;
+    width: 100px;
+    border: rgb(37, 122, 233) solid 3px;
+    font-size: 100%;
+    text-align: center;
+    font-family:  SuperMarioGalaxy;
+}
+
+.totalParent {
+    display: flex;
+    justify-content: space-around;
+}
+
+.totalStuff {
+    display: flex;
+    flex-direction: column;
+}
+
+.total {
+    float: right;
+    margin-right: 20%;
+    height: 100%;
+    width: 100%;
+    border: rgb(235, 107, 2) dashed 5px;
+    font-size: 35px;
+}
+
+.total-price {
+    font-size: 40px;
+    font-family: SuperMarioGalaxy;
+
+}
+.totalWords {
+    font-size: 40px;
+    font-family:  SuperMarioGalaxy;
+    margin-left: 20%;
+}
+
+.total{ 
+    font-family:  SuperMarioGalaxy;
+    background-color: #00a2ff;
+}
+
+@media (max-width: 775px) {
+
+}
