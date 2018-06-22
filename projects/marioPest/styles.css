@@ -18,9 +18,6 @@ h1 {
     width: auto;
     height: 75px;
 }
-/*ul {
- list-style-type: none;
-}*/
 
 li {
     font-size: 30px;
@@ -73,6 +70,15 @@ li {
 .total{ 
     font-family:  SuperMarioGalaxy;
     background-color: #00a2ff;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    flex-wrap: wrap;
+    font-size: 19px;
+    background-color:rgb(235, 107, 2); 
+    font-family:  SuperMarioGalaxy;
 }
 
 @media (max-width: 775px) {

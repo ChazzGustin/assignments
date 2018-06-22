@@ -1,0 +1,17 @@
+form {
+    text-align: center;
+    font-family: 'Copperplate';
+}
+p {
+    text-align: center;
+    font-family: 'Copperplate';
+}
+h1 {
+    text-align: center;
+    font-family: 'Copperplate';
+}
+body {
+   background-image: url("http://www.blurryphotos.org/wp-content/uploads/2014/02/tbird1.jpg");
+   background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
