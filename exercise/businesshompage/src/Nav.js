@@ -1,1 +1,8 @@
-function nav
+import React from "react";
+
+function Nav() {
+    return (
+
+   )
+}
+export default Info;
