@@ -1,6 +1,5 @@
 function large(arr) {
     var big = arr[0];
-
     if (arr[0] === undefined) {
         console.log("The array was empty.");
     } else {
@@ -12,19 +11,12 @@ function large(arr) {
     }
     return big;
 }
-
 var testArr = [3, 5, 2, 8, 1];
-// var testArr = [13, 5, 2, 8, 1];
-// var testArr = [13, 5, 2, 8, 100];
-// var testArr = [3];
-// var testArr = [];
-console.log(`\nTesting large`);
 console.log(large(testArr));
 
-
+//
 function lettersWithStrings(arr, char) {
     var resultArr = [];
-
     for (var i = 0; i < arr.length; i++) {
         if (arr[i].indexOf(char) != -1) {
             resultArr.push((arr[i]));
@@ -32,25 +24,17 @@ function lettersWithStrings(arr, char) {
     }
     return resultArr;
 }
-
 testStrArr = ["#3", "$$$", "C%3!", "Hey!$"];
-char = "$";
-console.log(`\nTesting lettersWithStrings`);
-console.log(`Find ${char} in ${testStrArr}`);
+char =  "!";
+console.log(`Find ${char} in: ${testStrArr}`);
 console.log(lettersWithStrings(testStrArr, char));
 
-
-
-
-
+//
 function isDivisible(num1, num2) {
-
     if (num1 % num2 === 0) {
         return true;
     } else return false;
 }
-
-console.log(`\nTesting isDivisible`);
 console.log(isDivisible(4, 2));
 console.log(isDivisible(9, 3));
 console.log(isDivisible(15, 4));
