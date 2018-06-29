@@ -5,7 +5,6 @@ function passwordGen( len ) {
     var punctuation = '!@#$%^&*()_+~`|}{[]:;?><,./\-=';
     var password = "";
     var character = "";
-    var crunch = true;
     while( password.length<length ) {
         req1 = Math.ceil(string.length * Math.random()*Math.random());
         req2 = Math.ceil(numeric.length * Math.random()*Math.random());
