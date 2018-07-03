@@ -1,4 +1,3 @@
-
 let multTable = () => {
     let output = [];
     for (let i = 1; i < 11; i++) {

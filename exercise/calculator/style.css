@@ -1,0 +1,58 @@
+body > div {
+    width: 510px;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.header {
+    margin-bottom: 10px;
+}
+
+.header input {
+    width: 500px;
+    height: 40px;
+    border: 5px solid black;
+    text-align: center;
+}
+
+.numberFields {
+    margin: 0;
+    width: 450px;
+    height: 400px;
+    font-size:0;
+    overflow: auto;
+    float: left;
+}
+
+.numberFields input {
+    background-color: rgb(19, 133, 153);
+    border: 1px solid black;
+    width: 425px;
+    height: 40px;
+}
+
+
+.operations {
+    margin-left: 4px;
+    width: 40px;
+    font-size: 0;
+    display: inline-block;
+}
+
+.operations input {
+    background-color: purple;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+}
+
+.sum {
+    margin-top: 5px;
+}
+
+.sum input {
+    background-color: purple;
+    border: 1px solid black;
+    width: 404px;
+    height: 40px;
+}
