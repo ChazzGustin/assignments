@@ -1,4 +1,4 @@
-var ProhibitionBar = {  
+/*var ProhibitionBar = {  
     name: "Nate",
     age: 31,
     employment: [owner],
@@ -10,4 +10,4 @@ var ProhibitionBar = {
                 {
                     drinkOfChoice: "draft beer",
                     difficulty: 1,
-                }
+                }*/
