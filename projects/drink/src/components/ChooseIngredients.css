@@ -1,0 +1,54 @@
+div.allDrinks{
+	margin-top: 100px !important;
+	background-color:rgba(255,255,255, 0.75);
+	padding:20px;
+}
+
+h2 {
+	margin-bottom: 30px;
+}
+.divSearchIngredients{
+	margin-left: 25px;
+
+}
+.searchBox{
+	display: inline-block !important;
+	height: 35px !important;
+}
+.block{
+	text-align: left !important;
+}
+
+label{
+	display:block;
+}
+li{
+	list-style-type:none;
+	text-decoration:none;
+}
+li.listC{
+	list-style-type:none;
+	background-color: white;
+	border-color: grey;
+	padding:10px;
+	border-radius:10px;
+}
+h3{
+	border-radius:10px;
+	padding: 10px;
+	color:black;
+}
+
+span{
+	color:red;
+}
+.ulStyle{
+	margin-top: 10px;
+}
+.ulResults{
+	margin-top: 39px;
+}
+
+.divResults{
+	margin-top: 25px;	
+}

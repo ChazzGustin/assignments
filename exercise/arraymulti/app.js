@@ -1,4 +1,4 @@
-function sortedOfAge(arr){
+/*function sortedOfAge(arr){
 
 }
 
@@ -34,4 +34,4 @@ function sortByLNameFilterByAge(arr) {
             return person.age >= 18;
         })
 }
-console.log(sortByLNameFilterByAge(people));
+console.log(sortByLNameFilterByAge(people));*/

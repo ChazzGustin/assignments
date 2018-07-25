@@ -1,0 +1,27 @@
+.searchButton{
+	background-color: orange;
+	display: inline-block;
+	height: 30px;
+	margin-left: 4px;
+	color:white;
+	padding-top: 4px;
+}
+.searchButton:hover{
+	color:white;
+	background-color: #E0DB41;
+}
+form{
+	display:inline-block;
+}
+
+span.glyphicon {
+	color:black;
+}
+
+h4 {
+	font-size: 15px;
+	color: #636469;
+}
+.searchBoxChoose{
+	width: 220px
+}

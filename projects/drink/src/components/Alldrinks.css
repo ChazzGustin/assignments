@@ -1,0 +1,53 @@
+div.caption{
+	align-self: auto;
+}
+
+div.drinks{
+	margin-top: 100px !important;
+	background-color: rgba(255,255,255, 0.75);
+	padding:5px;
+}
+
+.btn-primary {
+	background-color: #fd7302;
+	border-color: white;
+}
+
+.btn-primary:active {
+	background-color: black;
+}
+.buttonsColor{
+	color:white;
+	background-color: orange;
+}
+.buttonsColor:hover{
+	color:white;
+	background-color: #E0DB41;
+}
+
+.centerButtons{
+	text-align: center;
+}
+.leftText{
+	text-align: left;
+
+}
+
+#root > div > div > div > div > div:nth-child(1) > div.col-md-7.block > div > div.col-md-6.bbselected > form {
+
+	align-content: left;
+	padding: none;
+}
+
+
+#root > div > div > div {
+
+	padding: none;
+}
+
+#root > div > div > div > h2 {
+	margin-bottom: 35px;
+	margin-top: 8px;
+	
+
+}

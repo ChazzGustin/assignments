@@ -1,0 +1,47 @@
+div > img{
+	margin: 0 auto;
+	border-color: solid, 5px, yellow;
+}
+
+.carousel{
+	width: 400px;
+	margin:0 auto;
+}
+.carousel-control.left{
+	background-image:none;
+}
+.carousel-control.right{
+	background-image:none;
+}
+
+.carouselImage{
+	cursor:pointer;
+}
+
+#root > div > div > div > div > a.carousel-control.right{
+	background-image: none !important;
+}
+
+#root > div > div > div > div > a.carousel-control.left{
+	background-image: none !important;
+}
+
+#root > div > footer > div > div > div {
+
+	align-items: inherit;
+}
+
+
+#root > div > footer > div > div > div > div.container-fluid{
+
+	align-content:  left;
+}
+
+body { 
+  background: url(../../img/Spirits.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 0;
+}
