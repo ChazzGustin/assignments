@@ -1,8 +1,8 @@
 const express = require("express");
 const choreRouter = express.Router();
 
-const ChoreModel = require("../models/choreModel.js");
-const PersonModel = require("../models/personModel");
+const ChoreModel = require("../models/choreModel");
+
 
 choreRouter.route("/")
     .get((req, res) => {

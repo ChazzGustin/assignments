@@ -55,7 +55,7 @@ const peopleReducer = (state = initialState, action) => {
     }
 }
 export const getPeople = () => {
-    // console.log("is this working?")
+    console.log("is this working?")
     return dispatch => {
         axios.get("/people")
             .then(response => {

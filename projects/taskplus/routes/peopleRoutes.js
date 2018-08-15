@@ -1,7 +1,7 @@
 const express = require("express");
 const personRouter = express.Router();
 
-const PersonModel = require("../models/personModel.js");
+const PersonModel = require("../models/personModel");
 
 personRouter.route("/")
     .get((req, res) => {

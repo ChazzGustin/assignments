@@ -10,9 +10,9 @@ const choreSchema = new Schema({
         required: true,
         type: String
     },
-    ageLevel: {
+    shift: {
         required: true,
-        type: Number
+        type: String
     },
     assignedTo: {
         type: mongoose.Schema.Types.ObjectId,

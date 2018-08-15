@@ -4,12 +4,13 @@ import { Switch, Route, withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 import {getChores} from "./redux/choresRedux"
 import {getPeople} from "./redux/peopleRedux";
-import AssignedChores from "./MainInputs/AssignedChores/AssignedChores";
+import AssignedChores from "./MainInputs/AssignedChores/AssignedChores.js";
 import ChoresInputs from './MainInputs/ChoresInputs.js';
 import PeopleInputs from './MainInputs/PeopleInputs.js';
 
 class App extends Component {
     componentDidMount() {
+        
         this.props.getPeople();
         this.props.getChores();
     }

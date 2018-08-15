@@ -123,7 +123,7 @@ export const addAssigned = (choreId, personId) => {
     return dispatch => {
         axios.put("/chores/" + choreId, { assignedTo: personId })
             .then(response => {
-                // console.log(response.data);
+                console.log(response.data);
                 dispatch({
                     type: "ADD_ASSIGNED",
                     editedChore: response.data,
